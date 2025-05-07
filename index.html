@@ -1,0 +1,120 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Learning - Welcome</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="form-page">
+    <header>
+        <img src="">
+    </header>
+
+    <main>
+        <!-- Formulario inicial -->
+        <section class="form-screen" id="userInfoScreen">
+          <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/y0r43t8migpq/logo_fun.png" class="form-image">
+            <h2>Let's get started with your language adventure!</h2>
+            <form id="userInfoForm">
+                <div class="form-group">
+                    <label for="userName">1. ¿Cual es tu nombre?</label>
+                    <input type="text" id="userName" name="userName" maxlength="20" required 
+                           placeholder="Enter your name (max 20 chars)" class="name-input">
+                </div>
+
+                <div class="form-group">
+                    <label for="learnReason">2. ¿Por qué quieres aprender idiomas?</label>
+                    <select id="learnReason" name="learnReason" required class="reason-select">
+                        <option value="">Select a reason</option>
+                        <option value="For Business">Por Negocios</option>
+                        <option value="For Kids">Fun for Kids</option>
+                        <option value="For Tourism">Por turismo</option>
+                    </select>
+                </div>
+                <button type="submit" class="submit-btn">Continue</button>
+            </form>
+        </section>
+
+        <!-- Pantalla original (oculta inicialmente) -->
+        <section class="form-screen hidden" id="learningStyleScreen">
+                     <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/y0r43t8migpq/logo_fun.png" class="form-image">
+            <h2>¿Cómo definirías tu estilo de aprendizaje?</h2>
+            <form id="learningStyleForm">
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="learningStyle" value="1" required>
+                        <div class="option-card">
+                            <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/xfkp5bfea1vk/Eye.png" class="option-image" alt="Visual learning">
+                            <h3>Visual Learner</h3>
+                            <p>Aprendo mejor con imágenes y comprensión espacial</p>
+                        </div>
+                    </label>
+                </div>
+                
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="learningStyle" value="2" required>
+                        <div class="option-card">
+                            <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/35eai050ne2z/Dise%C3%B1o_sin_t%C3%ADtulo_(86).png"class="option-image" alt="Auditory learning">
+                            <h3>Auditory Learner</h3>
+                            <p>Aprendo mejor a través de la escucha y el sonido</p>
+                        </div>
+                    </label>
+                </div>
+
+                <div class="form-group">
+                    <label>
+                        <input type="radio" name="learningStyle" value="3" required>
+                        <div class="option-card">
+                            <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/79hh8a14f2s6/Dise%C3%B1o_sin_t%C3%ADtulo_(85).png" class="option-image" alt="Combined learning">
+                            <h3>A combination of both</h3>
+                            <p>Aprendo mejor a través de la escucha, el sonido, las imágenes y la comprensión espacial</p>
+                        </div>
+                    </label>
+                </div>
+
+                <button type="submit" class="submit-btn">Start Learning</button>
+            </form>
+        </section>
+    </main>
+
+    <footer>
+        <p>© 2025 Fun Prototype</p>
+    </footer>
+
+    <script>
+        document.getElementById('userInfoForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            const userData = {
+                name: document.getElementById('userName').value,
+                reason: document.getElementById('learnReason').value
+            };
+            
+            localStorage.setItem('userData', JSON.stringify(userData));
+            
+            // Nueva lógica para redirigir si es para niños
+            if (userData.reason === "For Kids") {
+                window.location.href = "HomepageKids.html";
+            } else {
+                document.getElementById('userInfoScreen').classList.add('hidden');
+                document.getElementById('learningStyleScreen').classList.remove('hidden');
+            }
+        });
+
+        // Mantener el script original para el formulario de estilos de aprendizaje
+        document.getElementById('learningStyleForm').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const selectedOption = document.querySelector('input[name="learningStyle"]:checked');
+            if (selectedOption) {
+                const homepage = `homepage${selectedOption.value}.html`;
+                window.location.href = homepage;
+            } else {
+                alert('Please select a learning style before continuing');
+            }
+        });
+    </script>
+</body>
+</html>

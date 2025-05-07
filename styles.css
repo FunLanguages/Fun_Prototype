@@ -1,0 +1,1126 @@
+/* styles.css */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    line-height: 1.4;
+    color: #333;
+    background-color: #02175e;
+}
+/*header {
+    background-color: #02175e;
+    color: white;
+    text-align: center;
+    padding: 0.0007rem;
+    position: relative;
+}*/
+
+h1 {
+    margin-top: 1rem;
+}
+
+.lessons {
+    max-width: 1200px;
+    padding: 0 1rem;
+    margin: 2rem 0; /* Remove horizontal centering */
+    width: 100%;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+#welcome-header {
+    color: #ffffff !important; /* Fuerza el color blanco */
+    font-size: 1.4rem;
+    margin-bottom: 0.5rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.2); /* Opcional: mejora legibilidad */
+    position: relative;
+    display: inline-block;
+    color: #ffffff;
+    margin-top: -1.6rem !important;/* Valor negativo para subirlo más */
+     
+}
+
+#welcome-header::after {
+    content: '';
+    position: absolute;
+    bottom: -7px;
+    left: 0;
+    width: 375px; /* Ajuste fino del ancho */
+    height: 3.3px;
+    background: #ffffff;
+    box-shadow: 0 2px 4px rgba(255, 255, 255, 0.2);
+}
+
+.lesson-container {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem !important;
+    align-items: flex-start; /* Alinear a la izquierda */
+    padding: 0;
+    width: 100%;
+    align-items: flex-start; /* Ensure left alignment */
+  margin: 2rem 0; /* Agregué margen vertical adicional si es necesario */
+}
+
+
+.lesson-card {
+    background-color: white;
+    padding: 1.5rem; /* Lesson 2rem original */
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    cursor: pointer;
+    transition: transform 0.2s;
+    align-self: flex-start;
+    border: 5.5px solid #0446ff;
+    min-height: 280px;
+    min-width: 450px;
+    max-height: 280px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-bottom: 2rem;
+}
+
+.lesson-card:hover {
+    transform: scale(1.05); /* Aumenta el tamaño un 15% */
+    filter: drop-shadow(0 3px 5px rgba(0,0,0,0.25)); /* Opcional: sombra más pronunciada */
+}
+
+.lesson-card h3 {
+    color: #0446ff;
+    margin-bottom: 0rem;
+}
+
+.lesson-content {
+    max-width: 800px;
+    margin: 0 auto 2rem;
+    padding: 0 1rem;
+    display: none;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.page {
+    background-color: white;
+    padding: 1.5rem;
+    margin-bottom: 1rem;
+    border-radius: 20px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+    margin: 1rem auto;
+}
+
+.page h3 {
+    color: #02175e;
+    margin-bottom: 1rem;
+}
+
+.audio-player {
+    margin: 1rem 0;
+}
+
+audio {
+    width: 100%;
+    max-width: 300px;
+}
+
+.nav-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 1rem;
+}
+/* Lesson Button */
+button {
+    padding: 0.5rem 1rem;
+    width: 49%;
+    Height: 45px;
+    margin-bottom: 2rem;
+    margin-top: 1.5rem;
+    margin: 1.5rem auto 2rem auto; /* Centra horizontalmente */
+    background-color: #02175e;
+    color: white;
+    border: none;
+    border-radius: 17px;
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #0446ff;
+}
+
+/* Nueva estructura de lección contiene imagen, audio y opcion multiple */
+.lesson-header {
+    display: flex;
+    gap: 0.9rem;
+    align-items: flex-start;
+    margin: 0.5rem 0;
+}
+
+.lesson-image {
+    width: 150px;
+    height: 170px;
+    object-fit: contain;
+    margin-top: 0.1rem;
+    margin-left: 1rem;
+    flex-shrink: 0;
+}
+audio {
+    max-width: 300px; /* Reducido de 300px */
+    transform: scale(0.9); /* Escalar todo el reproductor */
+}
+.audio-section {
+    flex: 1;
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+
+.text-options {
+    margin-top: 2rem;
+}
+/* New styles for image grid */
+.image-grid {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr;
+    gap: 1rem;
+    margin-top: 1.5rem;
+    margin-left: 2rem;
+    max-width: 100%;
+}
+
+.image-option {
+    width: 100%;
+    max-width: 300px; /* Half of 1020px to fit 2x2 grid in 800px container */
+    height: auto;
+    cursor: pointer;
+    border: 3px solid transparent;
+    border-radius: 20px;
+    transition: border-color 0.2s;
+}
+
+.image-option:hover {
+    border-color: #0446ff;
+}
+
+.image-option.correct {
+    border-color: #2ecc71;
+}
+
+.image-option.incorrect {
+    border-color: #e74c3c;
+}
+/* Esta linea no me funciona .imagen no ajusta el tamaño */
+.imagen {
+    width: 100%;
+    height: auto;
+    max-width: 500px; /* Ajusta este valor según tus necesidades */
+    max-height: 500px; /* Ajusta este valor según tus necesidades */
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+.logo {
+    height: 110px;
+    max-height: 180px;
+    width: auto;
+    display: block;
+    margin: 0.2rem auto;
+    object-fit: contain;
+    transition: all 0.3s ease;
+}
+
+/* Nuevos estilos de formulario inicial pantalla 1 */
+.form-screen {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+}
+
+.form-group {
+    margin: 1.5rem 0;
+}
+
+.form-group label {
+    display: block;
+    cursor: pointer;
+}
+
+.option-card {
+    background-color: white;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.option-card:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.form-group input[type="radio"] {
+    opacity: 0;
+    position: absolute;
+}
+
+.form-group input[type="radio"]:checked + .option-card {
+    background-color: #e6f0ff;
+    border: 2px solid #0446ff;
+}
+
+.submit-btn {
+    background-color: #0446ff !important;
+    padding: 1rem 2rem !important;
+    font-size: 1.1rem;
+    margin-top: 2rem;
+    margin-bottom: 6rem;
+}
+
+.submit-btn:hover {
+    background-color: #0232b3 !important;
+}
+
+/* Nuevos estilos para opciones de texto */
+.text-options {
+    margin: 2rem 0;
+    display: grid;
+    gap: 1rem;
+}
+
+.text-option {
+    padding: 1.5rem;
+    background-color: white;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    border: 2px solid transparent;
+}
+
+.text-option:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 10px rgba(0,0,0,0.15);
+}
+
+.text-option.correct {
+    background-color: #e6f6e6;
+    border-color: #2ecc71;
+    box-shadow: 0 2px 5px rgba(46, 204, 113, 0.2);
+}
+
+.text-option.incorrect {
+    background-color: #fae6e6;
+    border-color: #e74c3c;
+    box-shadow: 0 2px 5px rgba(231, 76, 60, 0.2);
+}
+
+/* Estilos para pantalla de felicitaciones */
+.congrats-screen {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+    text-align: center;
+    display: none;
+}
+
+.congrats-content {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 20px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+}
+
+.congrats-image {
+    width: 220px;
+    height: auto;
+    margin: 1rem auto;
+    display: block;
+}
+
+#error-count {
+    margin: 1rem 0;
+    color: #666;
+    font-size: 1.1rem;
+}
+
+/* Estilos para las imágenes de las opciones */
+.option-card {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    align-items: center;
+    padding-top: 10px; /* Espacio para la imagen */
+}
+
+.option-image {
+    width: 110px;
+    height: 110px;
+    object-fit: contain;
+    border-radius: 50%;
+    transition: all 0.3s ease;
+}
+
+.option-card:hover .option-image {
+    transform: scale(1.05) rotate(5deg);
+    box-shadow: 0 4px 10px rgba(4, 70, 255, 0.3);
+}
+
+/* Ajustes para el texto debajo de la imagen */
+.option-card h3 {
+    margin-top: 0;
+    text-align: center;
+    margin-top: 0.5rem;
+    margin-left: 0rem;
+    color: #02175e;
+}
+
+.option-card p {
+    text-align: center;
+    margin-top: 0.8rem;
+    margin-left: 0rem;
+    margin-bottom: 1rem;
+}
+
+/* Ajustar espaciado cuando está seleccionado */
+.form-group input[type="radio"]:checked + .option-card .option-image {
+    border-color: #02175e;
+    box-shadow: 0 0 0 3px rgba(4, 70, 255, 0.2);
+}
+
+/* Daily Words Styles */
+.daily-words {
+    max-width: 300px;
+    margin: 2rem auto;
+    cursor: pointer;
+}
+
+.daily-words-container {
+    background-color: white;
+    padding: 1rem; /* Reduje un poco el padding para mejor espacio */
+    border-radius: 15px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    transition: transform 0.2s;
+    color: #0446ff;
+    margin-top: 1rem;
+    border: px solid #02175e;
+    text-align: center; /* Alineación izquierda para el texto */
+    position: relative; /* Para posicionamiento absoluto si necesitas */
+    max-width: 100%;
+    max-height: 189px;
+    min-width: 190px;
+    /* Nuevo: Flexbox para alinear imagen y texto */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Alineación a la izquierda */
+    gap: 0.5rem; /* Espacio entre elementos */
+    margin-bottom: 2.2rem;
+    margin-left: auto;
+    margin-right: auto;
+    border: 5.5px solid #0446ff;
+}
+
+.daily-words-container:hover {
+    transform: translateY(-3px);
+}
+
+.daily-word-image {
+    width: 173px; /* Tamaño ajustable */
+    height: 175px; 
+    object-fit: contain; /* Para no distorsionar la imagen */
+    margin-bottom: 0rem;
+    align-self: center; /* Centrar solo la imagen */
+}
+
+/* Si quieres que el título (h3) esté alineado a la izquierda pero con espacio */
+.daily-words-container h3 {
+    width: 100%;
+    margin: 0;
+    padding-bottom: 0rem;
+    margin-bottom: 0rem;
+}
+/* Pantalla de cartas de palabras diarias */
+.word-cards-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #f5f5f5;
+    z-index: 1000;
+    padding: 1rem;
+    overflow-y: auto;
+}
+
+.words-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2rem;
+}
+
+/* Back button  */
+.back-button {
+    background: #02175e;
+    border: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 0.8rem 1.5rem;
+    transition: background-color 0.2s;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 33%
+}
+
+.back-button:hover {
+    background-color: #093ae0;
+}
+
+.cards-container {
+    display: flex;
+    gap: 1rem;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-bottom: 5rem;
+}
+
+.word-card {
+    background-color: white;
+    border-radius: 15px;
+    padding: 2rem;
+    box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.word-content {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 0rem; /* Espacio entre elementos de texto */
+    width: 100%;
+}
+
+.word-content h4 {
+    color: #02175e;
+    font-size: 1.8rem;
+    margin: 0; /* Eliminar márgenes por defecto */
+}
+
+.word-content p {
+    color: #666;
+    font-size: 1.5rem;
+}
+
+.speaker-icon {
+    font-size: 1.5rem;
+    cursor: pointer;
+    position: absolute;
+    top: 1rem;
+    right: 1rem;
+    transition: transform 0.2s;
+}
+
+.speaker-icon:hover {
+    transform: scale(1.1);
+}
+
+/* Nuevos estilos para imágenes en tarjetas de palabras */
+.word-image {
+    width: 180px;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 0rem;
+    object-fit: cover;
+}
+
+/* Ajustar espaciado en tarjetas con imagen */
+.word-card {
+    flex-direction: column; /* Apila elementos verticalmente */
+    gap: 1.5rem; /* Espacio entre imagen y contenido */
+    padding: 2rem; /* Aumentar padding interno */
+}
+
+.word-content h4 {
+    margin-top: 0.5rem;
+    margin-right: 1rem;
+    margin-bottom: 0.3rem;
+}
+
+/* Ajustar tamaño del contenedor de tarjetas */
+.cards-container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 1rem;
+}
+
+/* Agregar estas nuevas reglas */
+.hidden {
+    display: none;
+}
+
+.name-input,
+.reason-select {
+    width: 100%;
+    padding: 12px;
+    margin-top: 8px;
+    border: 2px solid #02175e;
+    border-radius: 8px;
+    font-size: 1rem;
+}
+
+.reason-select {
+    background-color: white;
+    cursor: pointer;
+}
+
+/* Ajustar espaciado para el nuevo formulario */
+#userInfoScreen .form-group {
+    margin: 2rem 0;
+}
+
+#userInfoScreen label {
+    display: block;
+    text-align: left;
+    color: #02175e;
+    font-weight: bold;
+    margin-bottom: 0.5rem;
+}
+
+/* Boton de reinicio y welcome header diseños extras */
+#reset-prototype {
+    margin: 50px 15px 0; /* Margen superior y laterales */
+    padding: 12px 20px;
+    background: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    width: calc(100% - 30px); /* Ancho completo menos márgenes */
+    display: block;
+    transition: all 0.3s ease;
+}
+
+/* Eliminar cualquier estilo con position: fixed */
+
+#reset-prototype:hover {
+    background-color: #c0392b;
+    transform: scale(1.05);
+}
+
+#welcome-header {
+    transition: all 0.3s ease;
+    margin-top: 1rem;
+    color: #02175e;
+}
+/* Ajustes específicos para el botón de reset */
+#reset-prototype {
+    margin: 30px auto 0;
+    padding: 10px 20px;
+    background: #e74c3c;
+    color: white;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 80%;
+    display: block;
+    margin-top: 60px;
+}
+
+#reset-prototype:hover {
+    background: #c0392b;
+    transform: scale(1.05);
+}
+
+.column {
+    position: relative;
+    padding: 0rem;
+}
+
+.column.left::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 7px;
+    height: 100%;
+    background-color: #0446ff;
+}
+.column.center::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 3.5px;
+    height: 100%;
+    background-color: #02175e;
+}
+/* Ajustes para las lecciones */
+.lessons {
+    max-width: 100%;
+    margin: 1rem auto;
+    padding: 0;
+}
+.lesson-card {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 300px;
+}
+
+/* Ajuste para Daily Words */
+.daily-words {
+    max-width: 250px;
+    margin: 1rem auto;
+}
+/* Nuevos estilos para el layout de 3 columnas */
+.homepage-container {
+    margin-left: 250px; /* Igual al ancho de la columna izquierda */
+    margin-right: 300px; /* Igual al ancho de la columna derecha */
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+/*.column.left::after,
+.column.center::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 1px;
+    height: 100%;
+    background-color: white;
+}*/
+.homepage .column.center {
+    padding-left: 0.5rem; /* Añade espacio a la izquierda */
+    padding-right: 12rem; /* Espacio a la derecha si lo necesitas */
+    position: relative; /* Solo si necesitas posicionamiento relativo */
+}
+/* Ajuste para Daily Words */
+.daily-words {
+    max-width: 250px;
+    margin: 1rem auto;
+    margin-top: 
+}
+
+}
+/* Layout exclusivo para homepage */
+.homepage {
+    display: block;
+    min-height: calc(100vh - 180px);
+}
+
+.homepage .column {
+    position: relative;
+    padding: 1.1rem;
+}
+
+
+
+/* Asegurar que las lecciones mantengan su estilo original */
+.lesson-content {
+    max-width: 800px;
+    margin: 2rem auto;
+    display: none;
+}
+
+.congrats-screen {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Ocupa toda la altura visible */
+    padding: 0.5rem;
+    margin-left: 20; /* Eliminar margen fijo */
+}
+
+.congrats-content {
+    width: 100%;
+    max-width: 300px; /* Máximo ancho igual que el tuyo */
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 3px 7px rgba(0,0,0,0.1);
+    text-align: center;
+    padding: 2rem;
+    margin: 0 auto; /* Centrado automático */
+}
+/* Estilos para el chat IA */
+.ai-chat-screen {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #02175e;
+    z-index: 1000;
+    padding: 0.1rem;
+}
+.close-chat-btn {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: white;
+    color: #02175e;
+    border: 2px solid #0446ff;
+    font-size: 28px;
+    line-height: 1;
+    cursor: pointer;
+    z-index: 1001;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 5px;
+    transition: all 0.3s ease;
+}
+.chat-container {
+    max-width: 800px;
+    margin: 3rem auto 1rem;
+    background: white;
+    border-radius: 15px;
+    border: 2px solid #0446ff;
+    height: calc(110vh - 6rem);
+    display: flex;
+    flex-direction: column;
+}
+
+.chat-header {
+    padding: 0.7rem;
+    border-bottom: 2px solid #02175e;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.chat-messages {
+    flex: 1;
+    overflow-y: auto;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.message {
+    max-width: 70%;
+    padding: 0.8rem;
+    border-radius: 15px;
+    margin: 0.5rem 0;
+}
+
+.ai-message {
+    align-self: flex-start;
+    background: #f1f1f1;
+    border: 1px solid #ddd;
+}
+
+.user-message {
+    align-self: flex-end;
+    background: #0446ff;
+    color: white;
+}
+
+.message-content {
+    word-wrap: break-word;
+}
+
+.chat-input {
+    padding: 1rem;
+    border-top: 2px solid #02175e;
+    display: flex;
+    gap: 1rem;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 0.8rem;
+    border: 1px solid #0446ff;
+    border-radius: 10px;
+}
+
+.chat-input button {
+    padding: 0.8rem 1.5rem;
+    background: #02175e;
+    color: white;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.chat-input button:hover {
+    background: #0446ff;
+}
+.main-icon {
+    width: 113px;
+    height: 122px;
+    margin: 0 auto 30px;
+    display: block;
+}
+
+.icon-container {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.icon-item {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    transition: transform 0.2s;
+}
+
+.menu-icon {
+    width: 30px;
+    height: 30px;
+    object-fit: contain;
+}
+
+.icon-text {
+    color: #ffffff;
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-top: 3px;
+}
+
+/* Efecto hover para los items */
+.icon-item:hover {
+    transform: translateX(5px);
+    cursor: pointer;
+}
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #ffffff;
+    color: #02175e;
+    position: fixed;
+    bottom: 0;
+    height: 60px:
+    width: 100%;
+    margin-top: 2rem;
+    border-radius: 15px;
+    display: none; /* Ocultar footer */
+}
+.lesson-card-image {
+    width: 100%;
+    max-height: 190px;
+    max-width: 190px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: auto; /* Empuja la imagen hacia abajo */
+}
+.ai-tutor-container {
+    background-color: white;
+    padding: 1.2rem;
+    border-radius: 15px;
+    border: 5.5px solid #0446ff;
+    margin: 0 auto;
+    width: 85%;
+    min-height: 220px;
+    max-height: 240px;
+    max-width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: transform 0.2s;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); 
+}
+.ai-tutor-image {
+    width: 180px;
+    height: 180px;
+    object-fit: contain;
+    margin: 0 auto;
+}
+.ai-tutor-container:hover {
+    transform: translateY(-3px);
+}
+.ai-tutor {
+    cursor: pointer;
+}
+/* Estilos para el nuevo icono superior derecho */
+.lesson-card {
+    position: relative; /* Necesario para el posicionamiento absoluto */
+    overflow: visible; /* Asegura que la imagen no se recorte */
+}
+
+.lesson-card-icon {
+    position: absolute;
+    top: 15px;
+    right: 9px;
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    z-index: 1;
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.2));
+}
+
+/* Ajustes para la imagen existente */
+.lesson-card-image {
+    width: 100%;
+    max-height: 220px;
+    max-width: 180px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-top: 15px;
+    z-index: 2;
+    position: relative;
+    
+}
+.lesson-card-image:hover {
+    transform: scale(1.05); /* Aumenta el tamaño un 15% */
+}
+
+/* Efecto hover para el icono */
+.lesson-card:hover .lesson-card-icon {
+    transform: scale(1.15); /* Aumenta el tamaño un 15% */
+    filter: drop-shadow(0 3px 5px rgba(0,0,0,0.25)); /* Opcional: sombra más pronunciada */
+}
+
+/* Ajuste de espaciado para el texto */
+.lesson-card h3 {
+    margin-top: -8px;
+    position: relative;
+    z-index: 2;
+}
+
+.lesson-card p {
+    position: relative;
+    z-index: 2;
+}
+.form-screen {
+    background-color: white;
+    padding: 2rem;
+    margin: 2rem auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Opcional: sombra para mejor contraste */
+    position: relative; /* Contenedor relativo para posicionar la imagen */
+    padding-top: 145px; /* Espacio para la imagen */
+    margin-top: 0.5rem; /* Ajusta según necesites */
+  
+}
+.form-image {
+    position: absolute;
+    top:  23px; /* Mitad de la altura de la imagen */
+    left: 50%;
+    transform: translateX(-50%);
+    width: 95px; /* Ajusta el tamaño */
+    height: 100px;
+}
+.lesson-card-image2 {
+    position: absolute;
+    bottom: 0px;
+    right: 12px;
+    width: 200px; /* Ajusta el tamaño según necesites */
+    height: 190px;
+    object-fit: contain; /* Mantiene la proporción */
+    border-radius: 10px;
+    z-index: 1; /* Debajo del icono superior */
+    transition: all 0.3s ease;
+    filter: drop-shadow(0 2px 3px rgba(0,0,0,0.2));
+}
+
+/* Efecto hover opcional */
+.lesson-card:hover .lesson-card-image2 {
+    transform: scale(1.05); /* Aumenta el tamaño un 15% */
+    filter: drop-shadow(0 3px 5px rgba(0,0,0,0.25)); /* Opcional: sombra más pronunciada */
+}
+
+.column.right {
+    position: fixed;/* Esto fija la columna derecha en caso se necesite actualizar algo */
+    right: 0;
+    top: 0;
+    width: 300px;
+    height: 100vh;
+    z-index: 100;
+    background: #02175e;
+    padding: 1rem;
+}
+.column.left {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 250px; /* Ajustar según tu diseño */
+    height: 100vh;
+    z-index: 100;
+    background: #02175e;
+    padding: 1rem;
+    overflow-y: auto; /* Para scroll interno si el contenido es largo */
+}
+/* Carrusel */
+/* Carrusel mejorado */
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: 2rem auto;
+    overflow: hidden;
+}
+
+.cards-container {
+    display: flex;
+    transition: transform 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    padding: 0 20px;
+}
+
+.word-card {
+    flex: 0 0 calc(100% - 40px); /* 100% del ancho menos el padding */
+    min-width: calc(100% - 40px);
+    margin: 0 20px;
+    opacity: 0.5;
+    transform: scale(0.9);
+    transition: all 0.6s cubic-bezier(0.25, 0.46, 0.45, 0.94);
+    filter: blur(2px);
+}
+
+.word-card.active {
+    opacity: 1;
+    transform: scale(1);
+    filter: blur(0);
+}
+
+.carousel-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: #02175e;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 24px;
+    cursor: pointer;
+    z-index: 10;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.3s ease;
+}
+
+.carousel-arrow:hover {
+    background: #0446ff;
+    transform: translateY(-50%) scale(1.1);
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+.word-card.dummy {
+    visibility: hidden;
+    opacity: 0;
+}

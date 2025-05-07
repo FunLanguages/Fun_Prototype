@@ -1,0 +1,207 @@
+<!-- homepage1.html -->
+<!DOCTYPE html>
+<html lang="en"> 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>English Learning Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <main class="homepage">
+        <div class="homepage-container">
+            <!-- Columna Izquierda vacía -->
+<div class="column left">
+    <div class="sidebar-content">
+        <!-- Imagen principal -->
+        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/bnmscjrxnwb7/Logo_Fun7.png" class="main-icon" alt="Main Icon">
+        
+        <!-- Iconos con texto -->
+        <div class="icon-container">
+            <div class="icon-item">
+                <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/042qkgqkj72b/Group_31.png" class="menu-icon" alt="Home">
+                <span class="icon-text">Home</span>
+            </div>
+            <div class="icon-item">
+                <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/kjy9enqrzw4w/Vector.png" class="menu-icon" alt="Streak">
+                <span class="icon-text">Streak</span>
+            </div>
+            <div class="icon-item">
+                <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/f9adfne0ba2p/podio_2.png" class="menu-icon" alt="Performance">
+                <span class="icon-text">Performance</span>
+            </div>
+            <div class="icon-item">
+                <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/t305x30615sl/icono4.png" class="menu-icon" alt="More">
+                <span class="icon-text">More</span>
+            </div>
+        <!-- Botón Reset agregado aquí -->
+
+    </div>
+              <button id="reset-prototype" 
+                style="margin:;">
+            Reset Prototype
+        </button>
+</div>
+</div>
+            
+            <!-- Columna Central - Lecciones -->
+            <div class="column center">
+                <section class="lessons">
+                    <h2 id="welcome-header">Welcome!<br><span class="highlight">Your Lessons</span></h2>
+<div class="lesson-container"> <!-- Contenedor añadido -->
+<div class="lesson-card" onclick="showLesson(1)">
+    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/8dew49tsex73/Group_138.png" 
+         class="lesson-card-icon" 
+         alt="Lesson 1 Icon">
+                            <h3>Lesson 1</h3>
+                            <p>Basic Verbs & Actions</p>
+                                    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/sikli694ah33/Dise%C3%B1o_sin_t%C3%ADtulo_(16).png" 
+             class="lesson-card-image" 
+             alt="Lesson 1 Illustration">
+  <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wmdx48uwbiy2/Group_142.png" class="lesson-card-image2" alt="Lesson 1 Illustration">
+                        </div>
+<div class="lesson-card" onclick="showLesson(2)">
+    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ps1k2xsvpnxa/Group_140.png" 
+         class="lesson-card-icon" 
+         alt="Lesson 1 Icon">
+                            <h3>Lesson 2</h3>
+                            <p>Animals & Colors</p>
+                                    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ipsl496bycat/Dise%C3%B1o_sin_t%C3%ADtulo_(17).png" 
+             class="lesson-card-image" 
+             alt="Lesson 2 Illustration">
+    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wmdx48uwbiy2/Group_142.png" class="lesson-card-image2" alt="Lesson 1 Illustration">
+                        </div>
+<div class="lesson-card" onclick="showLesson(3)">
+    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/vln8cwi36gle/Group_76.png" 
+         class="lesson-card-icon" 
+         alt="Lesson 1 Icon">
+                            <h3>Lesson 3</h3>
+                            <p>Common Professions</p>
+                                    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/cm1gi1dte37o/Dise%C3%B1o_sin_t%C3%ADtulo_(15).png" 
+             class="lesson-card-image" 
+             alt="Lesson 3 Illustration">
+      <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wmdx48uwbiy2/Group_142.png" class="lesson-card-image2" alt="Lesson 1 Illustration">
+                        </div>
+                    </div>
+                </section>
+            </div>
+            
+            <!-- Columna Derecha - Daily Words -->
+            <div class="column right">
+                <section class="daily-words" onclick="showWordCards()">
+                    <div class="daily-words-container">
+                        <h3>Daily New Words</h3>
+                        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/85s6yrf548ts/tutorsaidaily.png" 
+             class="daily-word-image" 
+             alt="Daily Words Icon">
+                    </div>
+                </section>
+              <!-- Nuevo Contenedor 2 -->
+    <section class="ai-tutor" onclick="showNewFeature()">
+        <div class="ai-tutor-container">
+            <h3>AI Tutor</h3>
+            <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/hcmvbzu7b1n4/Group_136.png" 
+                 class="ai-tutor-image" 
+                 alt="AI Tutor Icon">
+                 </div>
+              </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Secciones de contenido (fuera del homepage) -->
+    <section class="lesson-content" id="lesson-content" style="display: none;">
+        <!-- Lesson content will be dynamically inserted here -->
+    </section>
+
+    <!-- Sección de tarjetas de palabras -->
+    <section class="word-cards-screen" id="word-cards-screen" style="display: none;">
+        <div class="words-header">
+            <button class="back-button" onclick="backToHomepage()"> Back to Homepage</button>
+        </div>
+        <div class="carousel-container">
+            <button class="carousel-arrow left-arrow">‹</button>
+            <button class="carousel-arrow right-arrow">›</button>
+            <div class="cards-container">
+                <div class="word-card active">
+                    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/iec36jyqabjn/Marketing.jpeg" 
+                         class="word-image" 
+                         alt="Marketing">
+                    <div class="word-content">
+                        <div class="word-audio">
+                            <span class="speaker-icon" 
+                                  onclick="playAudio('https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ryblogkd1cmd/Marketing.mp4')">🔊</span>
+                            <h4>Marketing</h4>
+                        </div>
+                        <p>Mercadeo</p>
+                    </div>
+                </div>
+                
+                <div class="word-card">
+                    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/bni0p9hxuepr/Entrepreneur.jpeg" 
+                         class="word-image" 
+                         alt="Entrepreneur">
+                    <div class="word-content">
+                        <span class="speaker-icon" 
+                              onclick="playAudio('https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wpylrwtva51l/Entrepreneur.mp4')">🔊</span>
+                        <h4>Entrepreneur</h4>
+                        <p>Emprendedor</p>
+                    </div>
+                </div>
+                
+                <div class="word-card">
+                    <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/who235llc3ts/Business_Model.jpeg" 
+                         class="word-image" 
+                         alt="Business Model">
+                    <div class="word-content">
+                        <span class="speaker-icon" 
+                              onclick="playAudio('https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/azxt3r1atayh/Business_Model.mp4')">🔊</span>
+                        <h4>Business Model</h4>
+                        <p>Modelo de Negocio</p>
+                    </div>
+                </div>
+            </div> <!-- Cierre correcto de cards-container -->
+        </div> <!-- Cierre de carousel-container -->
+    </section>
+
+<section class="congrats-screen" id="congrats-screen" style="display: none;">
+    <div class="congrats-content">
+        <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/hb5gl7ngpkrh/2.png" 
+             class="congrats-image" 
+             alt="Congratulations">
+        <h3>Congratulations!</h3>
+        <p id="error-count">You have 0 errors!!</p>
+        <button onclick="backToLessons()">Continue</button>
+    </div>
+</section>
+<!-- Nueva sección de chat IA -->
+<section class="ai-chat-screen" id="ai-chat-screen" style="display: none;">
+    <!-- Botón de cerrar rediseñado -->
+    <button class="close-chat-btn" onclick="backToHomepage()">×</button>
+    <div class="chat-container">
+        <div class="chat-header">
+            <h3>Powered by Sam AI</h3>
+        </div>
+        
+        <div class="chat-messages" id="chat-messages">
+            <div class="message ai-message">
+                <div class="message-content">
+                    Hello! I'm Sam AI. Ask me anything about English!
+                </div>
+            </div>
+        </div>
+        
+        <div class="chat-input">
+            <input type="text" id="user-input" placeholder="Type your message here...">
+            <button onclick="sendMessage()">Send</button>
+        </div>
+    </div>
+</section>
+    <footer>
+        <p>© 2025 Fun Prototype</p>
+    </footer>
+
+    <script src="homepage1.js"></script>
+</body>
+</html>
