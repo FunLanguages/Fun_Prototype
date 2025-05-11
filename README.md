@@ -2,12 +2,12 @@ Fun - AI-Powered Language & Skills Learning
 🚀 Personalized Education through AI Orchestration
 🌎 About Fun: 
 
-Fun is a next-generation language-learning platform that leverages AI-driven multi-agent orchestration to create personalized and immersive educational experiences. 
+Fun is a next-generation language and skills learning platform that leverages AI-driven multi-agent orchestration to create personalized and immersive educational experiences. 
 By integrating reasoning models, text-to-speech generation, image creation, and interactive lesson building, Fun tailors each user's learning journey based 
 on their unique style, mimicking the adaptive guidance of a human mentor.
 
 🎯 Mission & Impact
-We believe that education should be inclusive, adaptable, and engaging. Our goal is to revolutionize language learning by:
+We believe that education should be inclusive, adaptable, and engaging. Our goal is to revolutionize language and skills learning by:
 - Providing AI-personalized learning paths tailored to individual users.
 - Expanding accessibility to global learners, including underserved communities.
 - Leveraging AI automation to create scalable educational content beyond traditional static platforms.
