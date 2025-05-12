@@ -30,15 +30,15 @@ const lessons = {
                 ]
             },
             {
-                title: "She is walking in the park",
+                title: "He is sleeping in the couch",
                 image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
-                content: "1. Walking = Caminando<br>2. Park = Parque",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/chsf4ngyem8e/She_is_walking_in_the_park.wav",
+                content: "1. He is sleeping = El esta durmiendo<br>2. In the couch = en el sofa",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/1opnszega0b4/He_is_sleeping_in_the_couch.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9loj2647i6xe/She_is_in_a_bike.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/4jcd4psffqtm/She_is_drinking_water.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/d4b8xdmt1ztx/She_is_walking_in_the_park.jpeg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/exzkk3zxqype/She_is_talking_with_her_friend.jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/1cmqbrbf1hgu/She_is_teaching_class.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/s0lnstbpji02/Sleeping.jpeg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/e7ft0uia7rvn/Readinabook.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/vekxsxbkvm8t/He_is_playing_with_the_kids.jpeg", correct: false }
                 ]
             },
             {
@@ -112,15 +112,15 @@ const lessons = {
         title: "Verbs & Professions",
         pages: [
             {
-                title: "Janice is learning Karate",
+                title: "He works for UNICEF",
                 image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/40jh923d4z56/Lyssa.png",
-                content: "1. Janice is learning = Janice esta aprendiendo<br>2. The Karate = Karate",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/qx78yjmmk7tz/Janice_is_learning_karate.mp4",
+                content: "1. He works for UNICEF = El trabaja para UNICEF",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/t2azmlvodlkg/He_works_for_unicef.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/nhijbo5rg33f/WhatsApp_Image_2025-02-24_at_6.41.40_PM_(1).jpeg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/7htjasxjxuhb/WhatsApp_Image_2025-02-24_at_6.41.40_PM.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/t9hjc5stdf65/WhatsApp_Image_2025-02-24_at_6.41.41_PM.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/1utxnrputixs/WhatsApp_Image_2025-02-24_at_6.41.40_PM_(2).jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wri2lj4dfphz/Firefighter.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/4e71kgjwr5a7/UNICEF.jpeg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/vspefnl895hu/Investor.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/z8nu718a1wb0/Doctor.jpeg", correct: false }
                 ]
             },
             {
