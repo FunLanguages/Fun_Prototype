@@ -30,15 +30,15 @@ const lessons = {
                 ]
             },
             {
-                title: "She is walking in the park",
+                title: "He is sleeping in the couch",
                 image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
-                content: "1. Walking = Caminando<br>2. Park = Parque",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/chsf4ngyem8e/She_is_walking_in_the_park.wav",
+                content: "1. He is sleeping = El esta durmiendo<br>2. In the couch = en el sofa",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/1opnszega0b4/He_is_sleeping_in_the_couch.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9loj2647i6xe/She_is_in_a_bike.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/4jcd4psffqtm/She_is_drinking_water.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/d4b8xdmt1ztx/She_is_walking_in_the_park.jpeg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/exzkk3zxqype/She_is_talking_with_her_friend.jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/1cmqbrbf1hgu/She_is_teaching_class.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/s0lnstbpji02/Sleeping.jpeg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/e7ft0uia7rvn/Readinabook.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/vekxsxbkvm8t/He_is_playing_with_the_kids.jpeg", correct: false }
                 ]
             },
             {
