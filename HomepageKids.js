@@ -19,7 +19,7 @@ const lessons = {
         pages: [
                                 {
                 title: "My name is",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/h6mmigw15dov/ZOO.png",
                 content: "My name is<br>Selecciona la opción correcta",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/biac7eaf687k/My_name_is_kid.mp4",
                 questions: [
@@ -39,28 +39,28 @@ const lessons = {
                 content: "1. Boy = Niño",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/rg8s05utx8w4/Boy.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/bqjxu36pyfc2/WhatsApp_Image_2025-05-02_at_3.58.15_PM.jpeg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/uezmvplosyxf/WhatsApp_Image_2025-05-02_at_4.02.12_PM.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/moo7jchakbo2/WhatsApp_Image_2025-05-02_at_4.00.19_PM.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/go15uz3a7grf/WhatsApp_Image_2025-05-02_at_3.58.15_PM_(1).jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/unmu2a1yemto/ni%C3%B1o_estilo_3d_rende_lego.jpg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/nmshb0nb3t92/dinosaurio_3d_render_lego.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/m0aapscvk8er/zoologist_3d_renderi.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/twn2nd0cjffe/basketball_player_lego.jpg", correct: false }
                 ]
             },
                         {
                 title: "Girl",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
-                content: "Boy = Niño",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/rg8s05utx8w4/Boy.mp4",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/idv1g9eegley/Princess.png",
+                content: "Girl = Niña",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/435dmmbgecnn/Girl.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/bqjxu36pyfc2/WhatsApp_Image_2025-05-02_at_3.58.15_PM.jpeg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/bqjxu36pyfc2/WhatsApp_Image_2025-05-02_at_3.58.15_PM.jpeg", correct: false },
                     { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/uezmvplosyxf/WhatsApp_Image_2025-05-02_at_4.02.12_PM.jpeg", correct: false },
                     { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/moo7jchakbo2/WhatsApp_Image_2025-05-02_at_4.00.19_PM.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/go15uz3a7grf/WhatsApp_Image_2025-05-02_at_3.58.15_PM_(1).jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/go15uz3a7grf/WhatsApp_Image_2025-05-02_at_3.58.15_PM_(1).jpeg", correct: true }
                 ]
             }
         ]
     },
     2: {
-        title: "Nouns & Colors",
+        title: "Animals & Colors",
         pages: [
             {
                 title: "Lion",
@@ -68,16 +68,16 @@ const lessons = {
                 content: "Lion - León",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/p6mu8fpxf4rv/ttsmaker-file-2025-5-1-16-16-15.mp3",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/senonhw4390q/lion.jpeg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/agc4sbv8jhs1/zebra.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/q9d0f24zgakd/jiraff.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/vymlip6dkbft/tiger.jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/3sot2ltxgx58/10.jpg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ufw1fjbt60oi/12.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/8j3zg55kfk8s/13.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/s1f3ylya460f/11.jpg", correct: false }
                 ]
             },
             {
-                title: "Fire",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9xpqp9k5of8g/Betty.png",
-                content: "1. Fire = Fuego<br>2. Red = Rojo",
+                title: "Red",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/h6mmigw15dov/ZOO.png",
+                content: "   Red = Rojo",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/jpa4sr1w0kwb/ttsmaker-file-2025-5-2-10-7-58.mp3",
               images: [ 
                     { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/za9dsf7lwzpq/Blue.jpeg", correct: false },
@@ -88,7 +88,7 @@ const lessons = {
             },
             {
                 title: "Green",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/idv1g9eegley/Princess.png",
                 content: "1. Green = Verde",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/5sk6y2o28wnd/ttsmaker-file-2025-5-2-10-9-36.mp4",
               images: [ 
@@ -100,7 +100,7 @@ const lessons = {
             },
             {
                 title: "Blue Spaceship",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/idv1g9eegley/Princess.png",
                 content: "Blue - Azul<br>Spaceship - Nave Espacial",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/5r81ivhp0tsw/ttsmaker-file-2025-5-2-10-58-28.mp4",
               images: [ 
@@ -113,14 +113,14 @@ const lessons = {
          
             {
                 title: "Zebra",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9xpqp9k5of8g/Betty.png",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/idv1g9eegley/Princess.png",
                 content: "1. Zebra = Cebra",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/xwjb67ur1vaa/ttsmaker-file-2025-5-2-10-18-1.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/agc4sbv8jhs1/zebra.jpeg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/q9d0f24zgakd/jiraff.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/vymlip6dkbft/tiger.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/senonhw4390q/lion.jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/2zm1w4myv17d/zebra_3d_renderizado.jpg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/kvk07l35o1uz/una_jirafa_3d_render.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ye7ku6pk4wuc/elefante_3d_renderiz.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/hfjvdrmti6eh/vaca_3d_renderizado_lego.jpg", correct: false }
                 ]
             }
         ]
@@ -129,62 +129,58 @@ const lessons = {
         title: "Verbs & Professions",
         pages: [
             {
-                title: "Janice is learning Karate",
+                title: "Doctor",
                 image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/40jh923d4z56/Lyssa.png",
-                content: "1. Janice is learning = Janice esta aprendiendo<br>2. The Karate = Karate",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/qx78yjmmk7tz/Janice_is_learning_karate.mp4",
+                content: "1. Doctor = Doctor",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/uthiufxv8oxx/Doctor.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/nhijbo5rg33f/WhatsApp_Image_2025-02-24_at_6.41.40_PM_(1).jpeg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/7htjasxjxuhb/WhatsApp_Image_2025-02-24_at_6.41.40_PM.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/t9hjc5stdf65/WhatsApp_Image_2025-02-24_at_6.41.41_PM.jpeg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/1utxnrputixs/WhatsApp_Image_2025-02-24_at_6.41.40_PM_(2).jpeg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wtkej312cftm/unicef_bicicleta.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/gxr8q5f0ekat/Doctor_in_a_wheel_chair.jpg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/d1sj17luz81h/3D_Render_olympic.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ew5c3k7edu02/Lawyer_in_wheelchair.jpg", correct: false }
                 ]
             },
             {
-                title: "He is the President",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9xpqp9k5of8g/Betty.png",
+                title: "President",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/idv1g9eegley/Princess.png",
                 content: "He is = El es<br>The President = Presidente",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/e2cm6fej48k6/He_is_the_president.mp4",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/iqq3wymewquw/ttsmaker-file-2025-5-5-20-19-54.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/xz6ysox2nbbj/openart-image_vPWCm0Dz_1740155118260_raw.jpg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/dplaeyeewj40/openart-image_8uMo2KhM_1740155036208_raw.jpg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/5982xkkkxo41/openart-image_BCxMiKPz_1740154455079_raw.jpg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/iuxabv5r3r7x/openart-image_pF-BbuI0_1740154487520_raw.jpg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/iwxz1t4p8ubn/Lego_Astronaut.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ybrilci8w2xo/Lego_President.jpeg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/ptx5hygwou9r/LEgo_miner.jpeg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/91qgfssqc7nv/Lego_Builder.jpeg", correct: false }
                 ]
             },
             {
-                title: "He is a basketball player",
+                title: "Steve is a basketball player",
                 image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9xpqp9k5of8g/Betty.png",
                 content: "He is a = El es un<br>Basketball Player = Jugador de Baloncesto",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/vn6vq2xqb4cb/Steve_is_a_basketball_player.mp4",
               images: [ 
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/5982xkkkxo41/openart-image_BCxMiKPz_1740154455079_raw.jpg", correct: true },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wps65jema05n/openart-image_IPlyrEcH_1740154435349_raw.jpg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/29o1v42swazo/openart-image_uevfVXEq_1740154332684_raw.jpg", correct: false },
-                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/iuxabv5r3r7x/openart-image_pF-BbuI0_1740154487520_raw.jpg", correct: false }
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/twn2nd0cjffe/basketball_player_lego.jpg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/5pjojg50eess/Moto_GP.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/qac1m81steep/surf_lego.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/dfqnnqpl17fv/Singer.jpg", correct: false }
                 ]
             },
-            {
-                title: "Janice Story",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
-                content: "Entrepreneurship = Emprendedurismo<br>Basketball Event = Evento",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/kqnc1c1fllqu/JaniceStory.mp4",
-                questions: [
-                    {
-                        options: [
-                            { text: "Janice is worried about going to eat", correct: false },
-                            { text: "Janice would evaluate startups from Sillicon Valley", correct: true },
-                            { text: "Janice wants to go shopping this weekend", correct: false },
-                            { text: "Janice wants to sleep more this weekend", correct: false }
-                             ]
-                           }
-                        ]
-                    },
+              {
+                title: "Grandfather",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9xpqp9k5of8g/Betty.png",
+                content: "He is a = El es un<br>Basketball Player = Jugador de Baloncesto",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/tiya27d5h7lt/Grandfather.mp4",
+              images: [ 
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/urjwbcnyqy9e/abuelo_lego.jpg", correct: true },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9jzickqvksrd/un_hombre_estilo_3d_.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/pmgpt1cbnqin/abuela_lego.jpg", correct: false },
+                    { src: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/htdgbirjevta/Family_.jpg", correct: false }
+                ]
+            },
                     {
                 title: "My name is",
                 image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wgyydcok012y/Group_67.png",
                 content: "Entrepreneurship = Emprendedurismo<br>Basketball Event = Evento",
-                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/wnic9d4u1e5x/My_name_is.mp4",
+                audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/biac7eaf687k/My_name_is_kid.mp4",
                 questions: [
                     {
                         options: [
@@ -419,7 +415,7 @@ function sendMessage() {
             aiMessage.className = 'message ai-message';
             aiMessage.innerHTML = `
                 <div class="message-content">
-                    This is a simulated AI response. In a real implementation, you would connect to your AI API here.
+                    Thank you for using Fun! Our Chat & VideoCall service with tutors will be available soon—stay tuned!.
                 </div>
             `;
             document.getElementById('chat-messages').appendChild(aiMessage);
