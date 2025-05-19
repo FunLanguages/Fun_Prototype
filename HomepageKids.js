@@ -166,7 +166,7 @@ const lessons = {
             },
               {
                 title: "Grandfather",
-                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/9xpqp9k5of8g/Betty.png",
+                image: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/bvnwj7yfrq4u/Robert.png",
                 content: "He is a = El es un<br>Basketball Player = Jugador de Baloncesto",
                 audio: "https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/tiya27d5h7lt/Grandfather.mp4",
               images: [ 
