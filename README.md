@@ -19,7 +19,8 @@ Fun operates with an AI-powered multi-agent architecture, featuring:
 ✅ Image Generation Models: Creates interactive visual learning prompts.
 ✅ Code Generation Models: Builds dynamic lessons integrating AI-generated content.
 
-About this prototype:
+📱 About this prototype:
+
 This prototype is a live example of how we are implementing agent orchestration. Through this approach, we dynamically adapt content—including images, videos, text, audio, and even code to align with each user's unique life context. This enables the creation of truly personalized experiences that resonate with their lifestyle, suggesting learning paths that seamlessly integrate into their daily routines and real-life scenarios.
 
 Rather than providing a static, generic interface for all users, this approach opens the door to an app that evolves individually with every interaction, continuously adapting to personal needs and preferences.
