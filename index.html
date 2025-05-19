@@ -19,13 +19,13 @@
             <h2>Let's get started with your language adventure!</h2>
             <form id="userInfoForm">
                 <div class="form-group">
-                    <label for="userName">1. ¿Cual es tu nombre?</label>
+                    <label for="userName">1. What's your name?</label>
                     <input type="text" id="userName" name="userName" maxlength="20" required 
                            placeholder="Enter your name (max 20 chars)" class="name-input">
                 </div>
 
                 <div class="form-group">
-                    <label for="learnReason">2. ¿Por qué quieres aprender idiomas?</label>
+                    <label for="learnReason">2. Why do you want to learn languages?</label>
                     <select id="learnReason" name="learnReason" required class="reason-select">
                         <option value="">Select a reason</option>
                         <option value="For Business">For Business</option>
@@ -40,7 +40,7 @@
         <!-- Pantalla original (oculta inicialmente) -->
         <section class="form-screen hidden" id="learningStyleScreen">
                      <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/y0r43t8migpq/logo_fun.png" class="form-image">
-            <h2>¿Cómo definirías tu estilo de aprendizaje?</h2>
+            <h2>Select your learning style</h2>
             <form id="learningStyleForm">
                 <div class="form-group">
                     <label>
@@ -48,7 +48,7 @@
                         <div class="option-card">
                             <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/xfkp5bfea1vk/Eye.png" class="option-image" alt="Visual learning">
                             <h3>Visual Learner</h3>
-                            <p>Aprendo mejor con imágenes y comprensión espacial</p>
+                            <p>I learn best with images and spatial understanding</p>
                         </div>
                     </label>
                 </div>
@@ -59,7 +59,7 @@
                         <div class="option-card">
                             <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/35eai050ne2z/Dise%C3%B1o_sin_t%C3%ADtulo_(86).png"class="option-image" alt="Auditory learning">
                             <h3>Auditory Learner</h3>
-                            <p>Aprendo mejor a través de la escucha y el sonido</p>
+                            <p>I learn best through listening and sound</p>
                         </div>
                     </label>
                 </div>
@@ -70,7 +70,7 @@
                         <div class="option-card">
                             <img src="https://storage.googleapis.com/flutterflow-io-6f20.appspot.com/projects/sam-lingua-w7ub89/assets/79hh8a14f2s6/Dise%C3%B1o_sin_t%C3%ADtulo_(85).png" class="option-image" alt="Combined learning">
                             <h3>A combination of both</h3>
-                            <p>Aprendo mejor a través de la escucha, el sonido, las imágenes y la comprensión espacial</p>
+                            <p>I learn best through listening, sound, images, and spatial understanding</p>
                         </div>
                     </label>
                 </div>
@@ -94,12 +94,14 @@
             
             localStorage.setItem('userData', JSON.stringify(userData));
             
-            // Nueva lógica para redirigir si es para niños
+          // Nueva lógica para redirigir según la razón seleccionada
             if (userData.reason === "For Kids") {
-                window.location.href = "HomepageKids.html";
+               window.location.href = "HomepageKids.html";
+            } else if (userData.reason === "For Tourism") {
+               window.location.href = "HomePageTourism.html";
             } else {
-                document.getElementById('userInfoScreen').classList.add('hidden');
-                document.getElementById('learningStyleScreen').classList.remove('hidden');
+               document.getElementById('userInfoScreen').classList.add('hidden');
+               document.getElementById('learningStyleScreen').classList.remove('hidden');
             }
         });
 
